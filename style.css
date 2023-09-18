@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Croissant One', cursive;
+    /* font-family: 'Lobster', cursive; */
+}
+.logo{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 8%;
+    font-size: 150%;
+}
+.logo h1{
+    text-shadow: 3px 3px 12px #ffffff87;
+    color: #c9c08d;
+}
+.container{
+    padding: 10px;
+}
+.textArea{
+    
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.btn button{
+    height: 35px;
+    width: 45%;
+    border-radius: 10px;
+    border: none;
+    background-color: #619b61;
+    box-shadow: 3px 3px 10px #737070;
+    font-size: 16px;
+    font-family: 'Croissant One', cursive;
+}
+.textArea label{
+    font-size: 18px;
+    padding: 10px;
+}
+#textWrite{
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #593e3e;
+    padding: 15px;
+    color: #371d1d;
+    font-family: 'Croissant One', cursive;
+    width: 100%;
+}
+
+.outputTwo{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.outputTwo label{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.showCounter{
+
+}
+.CharacterShow{
+
+}
+.btn2{
+    background-color: red;
+}
